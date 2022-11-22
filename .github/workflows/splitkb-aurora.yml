@@ -12,6 +12,6 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["splitkb_aurora_corne_left", "splitkb_aurora_corne_right", "splitkb_aurora_sweep_left", "splitkb_aurora_sweep_right"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_RGB_UNDERGLOW=y\nCONFIG_WS2812_STRIP=y\nCONFIG_ZMK_RGB_UNDERGLOW_EFF_START=2\nCONFIG_ZMK_RGB_UNDERGLOW_EXT_POWER=n\nCONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=0\nCONFIG_BT_PERIPHERAL_PREF_MAX_INT=6"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_RGB_UNDERGLOW=y\nCONFIG_WS2812_STRIP=y\nCONFIG_ZMK_RGB_UNDERGLOW_EFF_START=2\nCONFIG_ZMK_RGB_UNDERGLOW_EXT_POWER=n\nCONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=0\nCONFIG_BT_PERIPHERAL_PREF_MAX_INT=6\nMIRYOKU_EXTRA=WORKMAN"]'
       branches: '["bobobo1618/zmk/oledandcorne"]'
 
