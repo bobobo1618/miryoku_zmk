@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Solderless'
+name: 'Solderless Reset'
 on: workflow_dispatch
 jobs:
   build:
@@ -9,7 +9,7 @@ jobs:
     secrets: inherit
     with:
       board: '["seeeduino_xiao_ble"]'
-      shield: '["solderless_left", "solderless_right"]'
-      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=0\nCONFIG_BT_PERIPHERAL_PREF_MAX_INT=6\nCONFIG_ZMK_SLEEP=y"]'
+      shield: '["solderless_left"]'
+      kconfig: '["CONFIG_ZMK_BLE_CLEAR_BONDS_ON_START=y"]'
       branches: '["bobobo1618/zmk/oledandcorne"]'
 
