@@ -9,6 +9,6 @@ jobs:
     secrets: inherit
     with:
       board: '["seeeduino_xiao_ble"]'
-      shield: '["solderless_left", "solderless_right", "settings_reset"]'
+      shield: '["solderless_left", "solderless_right"]'
       branches: '["bobobo1618/zmk/oledandcorne"]'
 
