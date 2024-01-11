@@ -11,5 +11,5 @@ jobs:
       board: '["seeeduino_xiao_ble"]'
       shield: '["solderless_left"]'
       kconfig: '["CONFIG_ZMK_BLE_CLEAR_BONDS_ON_START=y"]'
-      branches: '["bobobo1618/zmk/oledandcorne"]'
+      branches: '["bobobo1618/zmk/solderless"]'
 
