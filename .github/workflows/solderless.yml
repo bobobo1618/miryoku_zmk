@@ -1,0 +1,16 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Solderless'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["seeeduino_xiao_ble"]'
+      shield: '["solderless_left", "solderless_right"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=0\nCONFIG_BT_PERIPHERAL_PREF_MAX_INT=6\nCONFIG_ZMK_SLEEP=y"]'
+      custom_config: '["#define MIRYOKU_ALPHAS_WORKMAN\n#define MIRYOKU_EXTRA_COLEMAKDH"]'
+      branches: '["bobobo1618/zmk/solderless"]'
+
