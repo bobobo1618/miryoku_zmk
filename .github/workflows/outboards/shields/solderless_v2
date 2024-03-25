@@ -1,0 +1,8 @@
+# Copyright 2023 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=bobobo1618/solderless_module
+outboard_ref=main
+outboard_from=boards/shields/solderless_v2
+outboard_to=boards/shields/solderless_v2
+
