@@ -1,0 +1,13 @@
+file_format: "1"
+id: solderless_v2
+name: Solderless
+type: shield
+requires: [pro_micro]
+features:
+  - keys
+  - pointer
+exposes:
+  - spi_glidepoint
+siblings:
+  - solderless_v2_left
+  - solderless_v2_right
