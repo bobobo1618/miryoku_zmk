@@ -13,5 +13,5 @@ jobs:
       kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=0\nCONFIG_BT_PERIPHERAL_PREF_MAX_INT=6\nCONFIG_ZMK_SLEEP=y"]'
       custom_config: '["#define MIRYOKU_ALPHAS_WORKMAN\n#define MIRYOKU_EXTRA_COLEMAKDH"]'
       branches: '["petejohanson/zmk/feat/pointers-move-scroll"]'
-      modules: '["petejohanson/cirque-input-module/main", "bobobo1618/solderless_module/main"]'
+      modules: 'petejohanson/cirque-input-module/main bobobo1618/solderless_module/main'
 
